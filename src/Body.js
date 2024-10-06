@@ -17,7 +17,7 @@ function Body() {
       </div>
 
       <div className="content-row">
-        <h2>Our Serviced Include...</h2>
+        <h2>Our Services Include:</h2>
         <div className="card-container">
           <div className="card">
             <img src={evaluationImg} alt="evalutation" />
