@@ -112,6 +112,10 @@ const StyledContainer = styled.div`
       }
     }
 
+    img {
+      border-radius: 12px;
+    }
+
     .btn-holder {
       margin-top: 16px;
     }
