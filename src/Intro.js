@@ -118,6 +118,7 @@ const StyledContainer = styled.div`
 
     .btn-holder {
       margin-top: 16px;
+      margin-bottom: 16px;
     }
 
     @media (max-width: 803px) {
