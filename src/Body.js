@@ -9,7 +9,7 @@ function Body() {
       <div className="content-row">
         <h2>Who Are We?</h2>
         <h3>
-          At ADHDdoctor.ca, we specialize in comprehensive assessments and
+          We specialize in comprehensive assessments and
           personalized treatment plans for Attention Deficit Hyperactivity
           Disorder (ADHD). Dr. Daniel Nagel brings years of experience in
           diagnosing and managing late teens and adults with ADHD.
