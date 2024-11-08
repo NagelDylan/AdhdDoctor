@@ -25,6 +25,16 @@ function Intro() {
               Email For Appointment
             </a>
           </div>
+          <div className="btn-holder">
+            <a
+              className="screen-btn"
+              href="https://thinkadhd.co.uk/#:~:text=Your%20first%20step%20toward%20Adult%20ADHD%20diagnosis%20and%20treatment"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Take Screening Test
+            </a>
+          </div>
         </div>
 
         <div className="mobile-img">
@@ -95,6 +105,7 @@ const StyledContainer = styled.div`
     }
 
     .appoint-btn {
+      transition: background-color 0.3s ease, color 0.3s ease;
       background: #d8d2c2;
       padding: 16px 24px;
 
@@ -105,6 +116,25 @@ const StyledContainer = styled.div`
 
       &:hover {
         color: #b17457;
+      }
+
+      @media (max-width: 600px) {
+        font-size: 14px;
+      }
+    }
+
+    .screen-btn {
+      transition: background-color 0.3s ease, color 0.3s ease;
+      background: #b17457;
+      padding: 16px 24px;
+
+      color: #faf7f0;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 12px;
+
+      &:hover {
+        background: #9e644e;
       }
 
       @media (max-width: 600px) {
