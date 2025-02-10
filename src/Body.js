@@ -2,6 +2,7 @@ import styled from "styled-components";
 import evaluationImg from "./images/evaluation.svg";
 import personalized from "./images/personalized.svg";
 import continuous from "./images/continuous.svg";
+import Testimonials from "./testimonials/Testimonials";
 
 function Body() {
   return (
@@ -9,10 +10,10 @@ function Body() {
       <div className="content-row">
         <h2>Who Are We?</h2>
         <h3>
-          We specialize in comprehensive assessments and
-          personalized treatment plans for Attention Deficit Hyperactivity
-          Disorder (ADHD). Dr. Daniel Nagel brings years of experience in
-          diagnosing and managing late teens and adults with ADHD.
+          We specialize in comprehensive assessments and personalized treatment
+          plans for Attention Deficit Hyperactivity Disorder (ADHD). Dr. Daniel
+          Nagel brings years of experience in diagnosing and managing late teens
+          and adults with ADHD.
         </h3>
       </div>
 
@@ -57,6 +58,11 @@ function Body() {
           teaches future family physicians in the assessment and treatment of
           ADHD.
         </h3>
+      </div>
+
+      <div className="content-row">
+        <h2>Testimonials:</h2>
+        <Testimonials />
       </div>
     </StyledContainer>
   );
